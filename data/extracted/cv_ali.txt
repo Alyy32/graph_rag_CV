@@ -1,0 +1,64 @@
+BEN NAJJAR ALI
+Élève-Ingénieur Data & IA | Machine Learning · GenAI · RAG · NLP
+21000 Dijon, France · +33 7 51 46 89 82 · bennajjar.ali@esprim.tn · LinkedIn · GitHub
+À la recherche d'un stage de 6 mois en Data Science / GenAI — disponible janvier ou février 2027 — France 
+entière
+PROFIL
+Élève-ingénieur en Data & IA à l'ESPRIM, sélectionné parmi les 5 meilleurs étudiants pour un échange académique à Polytech Dijon (2026) — spécialisé 
+en modélisation analytique, Machine Learning et architectures d'IA générative (RAG, LLM, GraphRAG). Expérience concrète en entreprise : conception d'une 
+architecture RAG socratique, intégration Full-Stack (Angular, Flask) et traitement de données complexes, complétée par des projets de Deep Learning, NLP et 
+Computer Vision. Recherche un stage de 6 mois en Data Science / GenAI en France à partir de janvier ou février 2027.
+COMPÉTENCES TECHNIQUES
+Data Science & IA : Machine Learning, Deep Learning, NLP, RAG, GraphRAG, Prompt Engineering, Computer Vision, Transfer Learning, statistiques
+Langages : Python, SQL, Java, C#, TypeScript, PHP
+Frameworks Data & IA : Pandas, NumPy, Scikit-Learn, TensorFlow, PyTorch, FastAPI, Streamlit
+Frameworks Web : Flask, Django REST Framework, Spring Boot, Angular, .NET, Symfony
+Bases de données & recherche vectorielle : MySQL, Neo4j, FAISS, ChromaDB, Pinecone — graphes de connaissances
+MLOps & Outils : Pipelines MLOps, Docker, Git, GitHub, architecture REST, MVC/MVT, OAuth 2.0
+EXPÉRIENCE PROFESSIONNELLE
+Stagiaire Data & GenAI — RAG socratique juil. – août 2026
+ESPRIM, Monastir, Tunisie (remote)
+• Conçu et déployé une architecture RAG éducative basée sur Qwen2.5-Coder, adoptant une approche socratique : l'assistant guide l'apprenant par 
+questions successives au lieu de fournir directement la réponse.
+• Constitué et indexé un corpus d'environ 1 200 documents dans ChromaDB (découpage, embeddings et recherche sémantique), puis optimisé le prompt 
+engineering et le contexte fourni au LLM afin d'améliorer la pertinence des réponses.
+• Testé et évalué les réponses du système sur des cas d'usage pédagogiques pour itérer sur la qualité ; code disponible sur GitHub.
+Environnement : Python, Qwen2.5-Coder, RAG, ChromaDB, embeddings, prompt engineering
+Stagiaire Full-Stack — Portail client ERP juil. – août 2026
+ETC TN, Tunisie (remote)
+• Conçu et développé un portail client connecté à un système ERP, permettant aux clients de consulter leurs données et commandes en ligne.
+• Développé le backend avec Flask : environ 30 endpoints REST sécurisés, authentification OAuth 2.0 et contrôle d'accès à la base de données de 
+l'application.
+• Réalisé l'interface avec Angular, incluant un tableau de bord interactif pour le suivi analytique des commandes et des données clients ; code disponible sur 
+GitHub.
+Environnement : Angular, Flask, TypeScript, Python, APIs REST, OAuth 2.0, ERP
+Stagiaire Développeur Backend — Django REST Framework juin – août 2025
+Wisecool, Tunisie (remote)
+• Développé les APIs REST d'une plateforme e-learning en langue arabe avec Django REST Framework, selon une architecture MVT.
+• Mis en place la gestion des cours (création, organisation, accès) et le suivi des métriques de progression des apprenants.
+• Modélisé la base de données et documenté les endpoints pour faciliter l'intégration avec le frontend.
+Environnement : Python, Django, Django REST Framework, SQL
+PROJETS DATA & IA
+Moteur de recommandation académique — GraphRAG (Polytech Dijon) oct. 2026 – présent
+• Projet en cours : conception d'un graphe de connaissances Neo4j basé sur le référentiel ESCO pour relier métiers, compétences et formations.
+• Objectif : extraire automatiquement les compétences d'un CV, identifier les écarts avec un métier cible et recommander des cours personnalisés avec 
+explications générées par IA.
+Brain Tumor Detector — CNN, FastAPI, Streamlit projet personnel
+• Classification de plus de 300 000 images IRM cérébrales à l'aide d'un CNN ; précision obtenue : 97 %.
+• Déploiement d'une API d'inférence avec FastAPI et d'une interface Streamlit ; évaluation par précision, AUC et matrice de confusion ; code disponible sur 
+GitHub.
+Classification Iris — SVM & MLOps projet personnel
+• Implémentation d'un modèle SVM avec organisation MLOps pour l'entraînement, l'évaluation et la reproductibilité (Python, Scikit-Learn).
+Détection de caries dentaires — Deep Learning janv. – mai 2026
+• Projet de Transfer Learning sur images panoramiques dentaires : prétraitement, augmentation de données médicales et évaluation du modèle.
+Détection de Fake News en arabe — NLP & Machine Learning oct. – déc. 2025
+• Feature engineering et modèles de classification pour détecter les patterns caractéristiques des fake news en arabe.
+Face Recognition & Age Estimation — Computer Vision nov. – déc. 2025
+• Reconnaissance faciale et estimation d'âge en temps réel sur flux vidéo et images.
+FORMATION
+Polytech Dijon — Échange académique, Élève Ingénieur (2026 – présent) — sélectionné parmi les 5 meilleurs étudiants
+ESPRIM, Monastir, Tunisie — Diplôme National d'Ingénieur en Informatique, spécialité Data Science & IA (2024 – présent) — diplôme prévu en juillet 2027
+ENGAGEMENTS, CERTIFICATIONS & LANGUES
+Engagement : Responsable Formation, AIDI Club Cyber – ENIMO (2025 – 2026) — ateliers techniques en IA et informatique
+Certification : NVIDIA Deep Learning Fundamentals (janvier 2026)
+Langues : Français B2 · Anglais B2

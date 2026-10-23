@@ -1,0 +1,20 @@
+{
+  "source_file": "cv_ali.pdf",
+  "page_count": 1,
+  "character_count": 5411,
+  "pages_without_extracted_text": [],
+  "dominant_language": "fr",
+  "status": "detected",
+  "candidate_languages": [
+    "fr",
+    "en"
+  ],
+  "scores": {
+    "fr": 1.0,
+    "en": 0.0
+  },
+  "esco_matching_languages": [
+    "fr",
+    "en"
+  ]
+}

@@ -1,0 +1,404 @@
+[
+  {
+    "uri": "http://data.europa.eu/esco/skill/1ffac4ac-fda7-407d-8ed1-ca8f4a8dc146",
+    "label_en": "Angular",
+    "label_fr": "Angular",
+    "matches": [
+      {
+        "matched_term": "angular",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/33859d93-987c-4caa-a0a9-6159ea7bbc2a",
+    "label_en": "Arabic",
+    "label_fr": "arabe",
+    "matches": [
+      {
+        "matched_term": "arabe",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/4c016b68-4116-468c-9dc6-42710c239e4a",
+    "label_en": "C#",
+    "label_fr": "C#",
+    "matches": [
+      {
+        "matched_term": "c#",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/7b5cce4d-c7fe-4119-b48f-70aa05391787",
+    "label_en": "computer science",
+    "label_fr": "informatique",
+    "matches": [
+      {
+        "matched_term": "informatique",
+        "ambiguous": true
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/ddc3119d-1d6e-4324-9125-a3380d299ac5",
+    "label_en": "computer technology",
+    "label_fr": "technologie informatique",
+    "matches": [
+      {
+        "matched_term": "informatique",
+        "ambiguous": true
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/7b0d5000-00da-4864-b776-6de49a87a669",
+    "label_en": "computer vision",
+    "label_fr": "vision par ordinateur",
+    "matches": [
+      {
+        "matched_term": "computer vision",
+        "ambiguous": false
+      },
+      {
+        "matched_term": "tensorflow",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/edebd83d-35f6-4ed5-a940-6c203d178c01",
+    "label_en": "data science",
+    "label_fr": "science des big data",
+    "matches": [
+      {
+        "matched_term": "data science",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/43ae58b9-5e56-4524-b45a-b422777a0576",
+    "label_en": "database",
+    "label_fr": "base de données",
+    "matches": [
+      {
+        "matched_term": "base de donnees",
+        "ambiguous": false
+      },
+      {
+        "matched_term": "bases de donnees",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f",
+    "label_en": "database management systems",
+    "label_fr": "systèmes de gestion de base de données",
+    "matches": [
+      {
+        "matched_term": "mysql",
+        "ambiguous": true
+      },
+      {
+        "matched_term": "sql",
+        "ambiguous": true
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/ecc4552a-92c5-4222-b18d-faf5ac841080",
+    "label_en": "deep learning",
+    "label_fr": "apprentissage profond",
+    "matches": [
+      {
+        "matched_term": "deep learning",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/86ed2a45-eae9-4ab7-b0e6-d7508d33df4f",
+    "label_en": "dies",
+    "label_fr": "matrices",
+    "matches": [
+      {
+        "matched_term": "patterns",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/5f5e9350-1d13-4391-b9e1-07f6b2047fc5",
+    "label_en": "e-learning",
+    "label_fr": "formation en ligne",
+    "matches": [
+      {
+        "matched_term": "e-learning",
+        "ambiguous": true
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/8bc3c77c-30c3-45e6-bd61-069ba433ecfe",
+    "label_en": "e-learning software infrastructure",
+    "label_fr": "infrastructure de logiciel de formation en ligne",
+    "matches": [
+      {
+        "matched_term": "e-learning",
+        "ambiguous": true
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+    "label_en": "English",
+    "label_fr": "anglais",
+    "matches": [
+      {
+        "matched_term": "anglais",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/e747e77e-0ea1-4001-8b07-1d11946b5f1b",
+    "label_en": "French",
+    "label_fr": "Français",
+    "matches": [
+      {
+        "matched_term": "francais",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389",
+    "label_en": "Java (computer programming)",
+    "label_fr": "Java (programmation informatique)",
+    "matches": [
+      {
+        "matched_term": "java",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43",
+    "label_en": "machine learning",
+    "label_fr": "apprentissage automatique",
+    "matches": [
+      {
+        "matched_term": "machine learning",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/5645b349-2b67-48cf-b290-bbb029e59dcf",
+    "label_en": "medical imaging technology",
+    "label_fr": "technologie d’imagerie médicale",
+    "matches": [
+      {
+        "matched_term": "irm",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/cf532795-a1fd-43bd-8407-6e43f877e6e3",
+    "label_en": "mobile device management",
+    "label_fr": "gestion des appareils mobiles",
+    "matches": [
+      {
+        "matched_term": "avec",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/4da171e5-779c-4983-a76f-91c16751e99f",
+    "label_en": "MySQL",
+    "label_fr": "MySQL",
+    "matches": [
+      {
+        "matched_term": "mysql",
+        "ambiguous": true
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/fff0e2cd-d0bd-4b02-9daf-158b79d9688a",
+    "label_en": "natural language processing",
+    "label_fr": "traitement automatique du langage naturel",
+    "matches": [
+      {
+        "matched_term": "nlp",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/4350c38d-0fe9-4ca7-bab9-40ed7f72b04f",
+    "label_en": "PHP",
+    "label_fr": "PHP",
+    "matches": [
+      {
+        "matched_term": "php",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "label_en": "Python (computer programming)",
+    "label_fr": "Python (programmation informatique)",
+    "matches": [
+      {
+        "matched_term": "python",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/e6ee5bb8-12b9-4e60-8baf-102d0c4f1da5",
+    "label_en": "semantics",
+    "label_fr": "sémantique",
+    "matches": [
+      {
+        "matched_term": "semantique",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "label_en": "SQL",
+    "label_fr": "SQL",
+    "matches": [
+      {
+        "matched_term": "sql",
+        "ambiguous": true
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "label_en": "statistics",
+    "label_fr": "statistiques",
+    "matches": [
+      {
+        "matched_term": "statistiques",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/fb19c282-6bc6-4f63-b443-bbd8df5ba059",
+    "label_en": "supervise security at manned access gates",
+    "label_fr": "superviser la sécurité des portes d'accès",
+    "matches": [
+      {
+        "matched_term": "controle d'acces",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/9d2e926f-53d9-41f5-98f3-19dfaa687f3f",
+    "label_en": "tools for software configuration management",
+    "label_fr": "outils de gestion de configuration logicielle",
+    "matches": [
+      {
+        "matched_term": "git",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/867137fb-ff1b-4ca3-99f3-cb6969aa2c68",
+    "label_en": "TypeScript",
+    "label_fr": "TypeScript",
+    "matches": [
+      {
+        "matched_term": "typescript",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  },
+  {
+    "uri": "http://data.europa.eu/esco/skill/13bdd41a-2a18-441f-96db-41252c519413",
+    "label_en": "Visual Basic",
+    "label_fr": "Visual Basic",
+    "matches": [
+      {
+        "matched_term": ".net",
+        "ambiguous": false
+      }
+    ],
+    "method": "literal_esco_label_match",
+    "review_status": "pending"
+  }
+]
