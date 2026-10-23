@@ -1,78 +1,16 @@
 import json
 from pathlib import Path
 
-from lingua import Language, LanguageDetectorBuilder
-from pypdf import PdfReader
+from src.cv_pipeline.language import detect_language
+from src.cv_pipeline.pdf import extract_pdf_content
 
 
 ROOT = Path(__file__).resolve().parent
 PDF_PATH = ROOT / "data" / "cvs" / "cv_ali.pdf"
 OUTPUT_DIR = ROOT / "data" / "extracted"
 
-LANGUAGE_CODES = {
-    Language.FRENCH: "fr",
-    Language.ENGLISH: "en",
-}
-
-
 def extract_text(pdf_path):
-    if not pdf_path.is_file():
-        raise FileNotFoundError(f"CV not found: {pdf_path}")
-
-    reader = PdfReader(pdf_path)
-    pages = []
-    empty_pages = []
-
-    for number, page in enumerate(reader.pages, start=1):
-        text = (page.extract_text() or "").strip()
-
-        if not text:
-            empty_pages.append(number)
-
-        pages.append(text)
-
-    text = "\n\n".join(pages).strip()
-
-    if not text:
-        raise ValueError(
-            "No text extracted. This PDF may require OCR."
-        )
-
-    return text, len(reader.pages), empty_pages
-
-
-def detect_language(text):
-    detector = (
-        LanguageDetectorBuilder
-        .from_languages(Language.FRENCH, Language.ENGLISH)
-        .with_minimum_relative_distance(0.20)
-        .build()
-    )
-
-    confidence_values = detector.compute_language_confidence_values(text)
-    detected = detector.detect_language_of(text)
-
-    # Starting rule to evaluate on our CV examples.
-    enough_text = sum(character.isalpha() for character in text) >= 80
-
-    if not enough_text:
-        detected = None
-        status = "insufficient_text"
-    elif detected is None:
-        status = "uncertain"
-    else:
-        status = "detected"
-
-    return {
-        "dominant_language": LANGUAGE_CODES.get(detected, "und"),
-        "status": status,
-        "candidate_languages": ["fr", "en"],
-        "scores": {
-            LANGUAGE_CODES[item.language]: round(item.value, 6)
-            for item in confidence_values
-        },
-        "esco_matching_languages": ["fr", "en"],
-    }
+    return extract_pdf_content(pdf_path)
 
 
 def main():
